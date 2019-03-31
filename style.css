@@ -36,6 +36,7 @@ a {
 }
 
 /*Main*/
+/*top section*/
 div.main-top {
   display: flex;
   position: relative;
@@ -57,8 +58,8 @@ div.main-top-text {
   width: 100%;
 }
 
-div .title .content {
-/*trying to figure out how to add proper spacing. if h2 h4 divs not necessary remove from html */
-}
+/*div .title .content {
+trying to figure out how to add proper spacing. if h2 h4 divs not necessary remove from html
+}*/
 
 /*Footer*/
