@@ -5,16 +5,19 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 /*Header*/
 header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
+  background-color: black;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+
 }
 
 .logo {
@@ -37,6 +40,7 @@ a {
 
 /*Main*/
 main {
+  z-index: 1
   display: flex;
   position: relative;
   width: 1200px;
@@ -45,27 +49,29 @@ main {
 }
 /*top section*/
 div.main-top-image img {
-  /*display: flex;*/
+  display: flex;
   position: relative;
-  top: 69px;
-  height: 700px;
-  width: 1200px;
+  top: 70px;
 }
 
 div.main-top-text {
-  display: flex;
+  display: inline-block;
+  /*flex-direction: column;
+  justify-content: flex-start;*/
   position: absolute;
-  top: 399px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  top: 400px;
+  text-align: center;
   background-color: black;
   height: 120px;
   width: 1200px;
+  /*padding-bottom: 10px;*/
 }
 
-/*div .title .content {
-trying to figure out how to add proper spacing. if h2 h4 divs not necessary remove from html
-}*/
+div.main-top-text h2 {
+  margin-top: 0;
+  padding-top: 12px;
+}
+
+
 
 /*Footer*/
