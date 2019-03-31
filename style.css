@@ -37,11 +37,10 @@ a {
 
 /*Main*/
 /*top section*/
-div.main-top {
+div.main-top-image img {
   display: flex;
   position: relative;
   top: 69px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
