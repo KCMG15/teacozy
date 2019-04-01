@@ -128,7 +128,7 @@ div.bottom-heading {
   top: 30px;
   text-align: center;
   width: 100%;
-  padding-top: 0px;
+  /*padding-top: 0px;*/
   border: 1px solid yellow;
 }
 
@@ -142,17 +142,10 @@ div.location {
   flex-direction: column;
   width: 300px;
   text-align: center;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 15px 20px;
   background-color: black;
   opacity: 1;
   border: 1px solid yellow;
 }
-
-
-
-
-
 
 /*Footer*/
