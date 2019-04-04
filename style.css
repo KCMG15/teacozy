@@ -149,4 +149,14 @@ div.location {
   border: 1px solid yellow;
 }
 
+/*Contact*/
+div.contact {
+  text-align: center;
+  height: 200px;
+}
+
 /*Footer*/
+
+footer {
+  margin-left: 20px;
+}
