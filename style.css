@@ -54,7 +54,7 @@ div.top-image img {
   display: flex;
   position: relative;
   top: 70px;
-  /*Image is incorrectly sized, redline is not consistent with project page.*/
+  object-fit: none;
 }
 
 div.top-text {
